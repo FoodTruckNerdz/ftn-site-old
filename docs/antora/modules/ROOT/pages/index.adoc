@@ -1,0 +1,9 @@
+= FoodTruckNerdz Website
+
+This is the official homepage for the FoodTruckNerdz web implementation.
+
+FoodTruckNerdz is a service to track food trucks and provide bookmarking to customers of those food trucks. Our companion App for Android and iOS allows food trucks to report their location with a Check-In and a background service that monitors their location during service hours.
+
+== How to run locally
+
+Set up Tailwind CSS following the https://github.com/AMDphreak/tailwind-setup-instructions[Tailwind setup instructions].
