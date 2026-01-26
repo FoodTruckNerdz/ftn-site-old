@@ -13,12 +13,10 @@ FoodTruckNerdz is a service to track food trucks and provide bookmarking to cust
 To run locally:
 
 - Clone with `git clone` command, VSCode's source control plugin, GitHub desktop, Gittyup, or another git client. It is recommended to set it up in VSCode, regardless of whether you also use GitHub desktop or Gittyup for different UX/UI.
-- Set up Tailwind.css using either of the following copies of instructions:
-  - [Antora documentation](https://foodtrucknerds.github.io/docs-site/common/latest/tailwind-setup-instructions.html)
-  - [Dedicated repository](https://github.com/FoodTruckNerds/tailwind-setup-instructions)
+- Set up Tailwind.css following standard procedures.
 - Open files in VSCode or another code editor.
 - Preview the site by opening the HTML files in your browser. Making changes in the file requires refreshing the page. If you want to avoid page refreshes, preview the site with `Live Server` feature in VSCode (or a comparable tool in any coding environment).
 
 ## Additional Documentation
 
-For comprehensive documentation including architecture details, API references, and deployment information, see the [Antora documentation](docs/antora/modules/ROOT/pages/index.adoc). Note that this README is self-contained and contains all essential information needed to understand and work with this project.
+For comprehensive documentation including architecture details, API references, and deployment information, see the [Antora documentation](docs/modules/ROOT/pages/index.adoc). Note that this README is self-contained and contains all essential information needed to understand and work with this project.

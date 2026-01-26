@@ -6,4 +6,4 @@ FoodTruckNerdz is a service to track food trucks and provide bookmarking to cust
 
 == How to run locally
 
-Set up Tailwind CSS following the https://github.com/AMDphreak/tailwind-setup-instructions[Tailwind setup instructions].
+Set up Tailwind CSS following standard documentation.
