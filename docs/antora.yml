@@ -1,5 +1,5 @@
-name: foodtrucknerdzsite
+name: ftn-site-old
 version: '1.0'
-title: FoodTruckNerdzSite
+title: ftn-site-old
 nav:
 - modules/ROOT/nav.adoc
