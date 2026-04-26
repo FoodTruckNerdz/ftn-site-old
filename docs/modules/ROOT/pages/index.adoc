@@ -1,9 +1,18 @@
-= FoodTruckNerdz Website
+= FoodTruckNerdz website (archived)
 
-This is the official homepage for the FoodTruckNerdz web implementation.
+[WARNING]
+====
+This component documents the **retired** implementation of the FoodTruckNerdz public site. It is kept in the build only for **historical reference** and for comparing navigation or copy with the current stack.
 
-FoodTruckNerdz is a service to track food trucks and provide bookmarking to customers of those food trucks. Our companion App for Android and iOS allows food trucks to report their location with a Check-In and a background service that monitors their location during service hours.
+**Use the current site and docs instead:** the active implementation and documentation live under the *ftn-site* component in this documentation set, not *ftn-site-old*.
+====
 
-== How to run locally
+The pages here described an earlier version of the FoodTruckNerdz web experience. Do **not** use them as a setup guide for new work; expect outdated tooling, URL patterns, and feature descriptions.
 
-Set up Tailwind CSS following standard documentation.
+== Historical summary
+
+FoodTruckNerdz is a service to help people find food trucks and save favorites. A companion app for Android and iOS let operators report location with a check-in and background monitoring during service hours. The *ftn-site-old* material reflected that era of the public website, before the product moved to the current *ftn-site* implementation.
+
+== See also
+
+* Current site documentation: navigate to the *ftn-site* component in this documentation collection.
