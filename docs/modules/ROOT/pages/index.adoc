@@ -13,6 +13,11 @@ The pages here described an earlier version of the FoodTruckNerdz web experience
 
 FoodTruckNerdz is a service to help people find food trucks and save favorites. A companion app for Android and iOS let operators report location with a check-in and background monitoring during service hours. The *ftn-site-old* material reflected that era of the public website, before the product moved to the current *ftn-site* implementation.
 
+== Documentation in this component
+
+* xref:contributing.adoc[Contributing] — allow-list `.gitignore`, layout, CI, and formatting.
+* xref:changelog.adoc[Changelog] — dated functional changes to this repository.
+
 == See also
 
-* Current site documentation: navigate to the *ftn-site* component in this documentation collection.
+* Current site documentation: navigate to the *ftn-site* component in the https://docs.foodtrucknerdz.com[FTN Docs] site.

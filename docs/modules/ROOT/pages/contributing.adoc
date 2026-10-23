@@ -1,0 +1,67 @@
+= Contributing to *ftn-site-old*
+
+This repository is **archived**—changes are usually hygiene, documentation, or historical reference. For active product work, use the current *ftn-site* implementation and its documentation on https://docs.foodtrucknerdz.com[FTN Docs].
+
+== Repository layout
+
+[cols="1,2",options="header"]
+|===
+| Path | Purpose
+
+| `index.html`, `script.js`, `styles.css`
+| Legacy marketing homepage assets
+
+| `checkin/`
+| Check-in demo page (static)
+
+| `map/`
+| Map demo and shell test script
+
+| `tailwind/`
+| Tailwind-related static assets
+
+| `docs/`
+| Antora component for this repo (published via the org `docs` playbook when wired)
+
+| `.github/workflows/`
+| CI (encoding guard)
+|===
+
+== Local preview
+
+There is no bundler required for the static pages. Open `index.html` in a browser or serve the repo root with any static file server.
+
+Tailwind setup for related work is described in the root README (external setup guide).
+
+== Formatting
+
+`dprint.jsonc` at the repository root configures formatting for supported file types. Run your editor's dprint integration or the dprint CLI before committing.
+
+== Allow-list gitignore [[allow-list-gitignore]]
+
+`.gitignore` uses an **allow-list**:
+
+. Everything is ignored (`*`).
+. Directory markers are un-ignored (`!*/`) so nested rules apply.
+. Only paths listed with `!` at the root (or re-ignore rules below) are trackable.
+
+=== Checklist for new tracked paths
+
+. Add a `!` line for the new file or directory (for example `!/new-feature/**`).
+. If the path is under an allowed directory but should stay untracked (build output, secrets), add a re-ignore rule in the lower section (for example `dist/` or `.env`).
+. Run `git check-ignore -v <path>` to confirm Git's decision.
+. Run `git status` and stage intentionally.
+
+=== Common pitfalls
+
+* **New root file without `!` entry** — `git add` silently does nothing useful; the file stays ignored.
+* **`node_modules` or `.env` under an allowed tree** — remain ignored by the Node re-ignore block; do not remove those rules.
+* **VS Code settings** — `.vscode` stays ignored; use user-level editor settings for this repo.
+
+== CI
+
+* *Encoding guard* — blocks mojibake in tracked text. See xref:changelog-details/2026-10-05-encoding-guard-ci.adoc[2026-10-05 encoding guard entry].
+
+== Changelog
+
+Record functional repo changes on xref:changelog.adoc[the changelog index] with a detail page when the change needs more than a one-line summary.

@@ -1,0 +1,13 @@
+= 2026-10-06 — Dependabot for GitHub Actions
+
+== Summary
+
+Dependabot is configured to check **GitHub Actions** workflow dependencies on a monthly schedule, with updates grouped to reduce noise.
+
+== Files
+
+* `.github/dependabot.yml` — ecosystem `github-actions`, monthly interval, grouped PRs.
+
+== Operations
+
+Review Dependabot PRs like any other dependency update: confirm workflow `uses:` pins remain compatible with the reusable workflows they reference (for example, `dev-centr/agent-rules` encoding guard).

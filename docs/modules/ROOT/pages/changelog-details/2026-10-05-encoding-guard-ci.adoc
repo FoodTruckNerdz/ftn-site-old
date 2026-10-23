@@ -1,0 +1,14 @@
+= 2026-10-05 — Encoding guard CI
+
+== Summary
+
+A CI workflow fails pull requests and pushes to `main` when tracked text files contain double-encoded UTF-8 (mojibake).
+
+== Workflow
+
+* `.github/workflows/encoding-guard.yml` calls the reusable workflow in `dev-centr/agent-rules`.
+* Runs on `pull_request` and on `push` to `main`.
+
+== Local practice
+
+Prefer UTF-8 editors and PowerShell 7+ on Windows. Intentional test fixtures can be allow-listed per agent-rules `general/text-encoding.md` (line marker or `.encoding-allow` globs).
