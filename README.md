@@ -1,5 +1,7 @@
 <a id="readme-top"></a>
 <div align="center">
+  <a href="https://docs.foodtrucknerdz.com"><img src="https://img.shields.io/badge/Docs-FoodTruckNerdz-2563eb?style=for-the-badge" alt="Docs | FoodTruckNerdz"></a>
+  <a href="https://github.com/FoodTruckNerdz/ftn-site-old/actions/workflows/encoding-guard.yml"><img src="https://github.com/FoodTruckNerdz/ftn-site-old/actions/workflows/encoding-guard.yml/badge.svg?style=for-the-badge" alt="Encoding guard CI"></a>
   <a href="https://github.com/FoodTruckNerdz/ftn-site-old/graphs/contributors"><img src="https://img.shields.io/github/contributors/FoodTruckNerdz/ftn-site-old.svg?style=for-the-badge" alt="Contributors"></a>
   <a href="https://github.com/FoodTruckNerdz/ftn-site-old/network/members"><img src="https://img.shields.io/github/forks/FoodTruckNerdz/ftn-site-old.svg?style=for-the-badge" alt="Forks"></a>
   <a href="https://github.com/FoodTruckNerdz/ftn-site-old/stargazers"><img src="https://img.shields.io/github/stars/FoodTruckNerdz/ftn-site-old.svg?style=for-the-badge" alt="Stargazers"></a>
@@ -22,6 +24,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#documentation">Documentation</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -39,6 +42,10 @@ FoodTruckNerdz is a service to track food trucks and provide bookmarking to cust
 ## Getting Started
 
 [Set up Tailwindcss](https://github.com/AMDphreak/tailwind-setup-instructions)
+
+## Documentation
+
+Antora component sources live in [`docs/`](docs/). The unified site is [FTN Docs](https://docs.foodtrucknerdz.com). Contributor notes (including the allow-list `.gitignore` workflow) are in [`docs/modules/ROOT/pages/contributing.adoc`](docs/modules/ROOT/pages/contributing.adoc).
 
 ## Contact
 

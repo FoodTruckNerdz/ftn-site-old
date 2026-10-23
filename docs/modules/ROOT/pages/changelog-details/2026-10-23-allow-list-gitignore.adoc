@@ -1,0 +1,24 @@
+= 2026-10-23 — Allow-list `.gitignore`
+
+== Summary
+
+The repository switched from a deny-list (Node template) `.gitignore` to an **allow-list** model: every path is ignored unless explicitly un-ignored with a `!` rule.
+
+== Why
+
+* Keeps the archived static site tree small and intentional—no accidental commits of local tooling, caches, or `node_modules`.
+* Matches FoodTruckNerdz agent rules for allow-list gitignore in owned repos.
+
+== What changed
+
+* Root `*` ignore with `!*/` so directory traversal works.
+* Explicit `!` entries for tracked roots: `.github/`, `checkin/`, `map/`, `docs/`, `tailwind/`, and core HTML/CSS/JS assets.
+* Node and framework artifacts remain ignored inside allowed directories (logs, `node_modules/`, `.env*`, build outputs, and similar).
+
+== Developer impact
+
+When you add a **new** file or directory at the repository root (or need a new path tracked under an allowed tree), update `.gitignore` with a matching `!` entry **before** `git add`. See xref:contributing.adoc#allow-list-gitignore[Contributing — allow-list gitignore] for the checklist.
+
+== Verification
+
+After editing `.gitignore`, run `git status` and confirm new paths appear as untracked (not ignored) before staging.

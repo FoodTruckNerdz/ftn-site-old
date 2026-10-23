@@ -13,4 +13,6 @@ This `docs/` folder is an Antora documentation component for the legacy website.
 
 This documentation is aggregated into the unified FoodTruckNerds documentation site via the playbook in the [docs repository](https://github.com/FoodTruckNerds/docs).
 
-Published site: https://foodtrucknerds.github.io/docs
+Published site: https://docs.foodtrucknerdz.com
+
+This component must be listed in the org playbook (`FoodTruckNerdz/docs` `antora-playbook.yml`) to appear on the live site. Until then, browse pages under `modules/ROOT/pages/` in this repository.

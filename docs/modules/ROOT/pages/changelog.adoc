@@ -1,0 +1,26 @@
+= Changelog
+
+This page lists functional and operational changes to the *ftn-site-old* repository. Detail pages expand on larger or developer-facing updates.
+
+== 2026
+
+* link:changelog-details/2026-10-23-allow-list-gitignore.adoc[2026-10-23] — Allow-list `.gitignore` so only intentional paths are tracked; contributor workflow documented.
+* link:changelog-details/2026-10-06-dependabot-github-actions.adoc[2026-10-06] — Dependabot monitors GitHub Actions dependencies monthly (grouped updates).
+* link:changelog-details/2026-10-05-encoding-guard-ci.adoc[2026-10-05] — Encoding guard CI blocks mojibake in tracked text files.
+
+== 2026 (documentation and tooling)
+
+* 2026-08-07 — README header uses centered GitHub HTML layout with linked badges.
+* 2026-08-06 — README aligned with the public Best README template structure.
+* 2026-06-13 — Shared `dprint.jsonc` added for consistent formatting.
+* 2026-04-26 — Antora index page marked as archived legacy site with pointer to current *ftn-site* docs.
+
+== 2026 (Antora)
+
+* 2026-03-05 — `antora.yml` component metadata updated.
+* 2026-01-26 — Documentation moved from `docs/antora/` to top-level `docs/` Antora component layout.
+
+== 2025
+
+* 2025-11-19 — Repository integrated as an Antora component in the FoodTruckNerdz documentation set.
+* 2025-07-12 — `.gitattributes` rules added to reduce cross-platform line-ending churn.
